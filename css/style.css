@@ -1,3 +1,56 @@
+body {
+  background-image: url('/assets/calei.jpg');
+  background-repeat: no-repeat;
+  background-size: 1080px;
+  background-position-x: center;
+}
+
+.header_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: blue 1px solid;
+}
+
+.header_logo-img {
+  width: 4rem;
+}
+
+.header_nav-left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 1.4rem;
+  border: red 1px solid;
+}
+
+.header_nav-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 1.4rem;
+  border: green 1px solid;
+}
+
+.header_navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 0.8rem;
+  border: green 1px solid;
+}
+
+.header_navigation-item {
+  border: black 1px solid;
+
+}
+
+li {list-style-type: none;}
+
+.header_utility {
+
+}
 
 .material-symbols-outlined {
   font-variation-settings:
